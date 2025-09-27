@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/30adi/new_AWS.git'
+                git branch: 'main', url: 'https://github.com:30adi/new_AWS.git'
             }
         }
 
